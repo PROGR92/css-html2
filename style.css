@@ -11,7 +11,11 @@ body
 
 #logo
 {
-
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
 }
 #menu
 {
