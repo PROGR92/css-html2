@@ -63,18 +63,19 @@ body
     padding: 20px;
     background-color: #e2e0e0;
     text-align: center;
-    border-right: 2px solid #666666;
+    border-right: 2px dotted #666666;
 }
 
 #content
 {
     float:left;
     padding: 20px;
+    padding-top: 30px;
     width: 770px;
     font-size: 14px;
     min-height: 640px;
     text-align: justify;
-    background-color: lightgrey;
+    background-color: rgb(248, 236, 236);
 }
 
 #footer
@@ -83,6 +84,7 @@ body
     color: white;
     text-align: center;
     padding: 20px;
+    padding-top: 10px;
     font-size: 18px ;
 }
 .option
@@ -114,4 +116,17 @@ body
     background-color: rgb(192, 130, 16);
     cursor: pointer;
     color: white;
+}
+.bigtitle
+{
+    color: black; 
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.dottedline
+{
+    border-bottom: 2px dotted #444444;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
